@@ -1,0 +1,12 @@
+.reset-content {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reset-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

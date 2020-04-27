@@ -1,0 +1,64 @@
+.modal.view {
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-modal-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn-modal {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-form {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+.modal-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal-pic-component {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-all-inputs {
+  width: 50%;
+}
+
+.modal-form .form-btn {
+  width: 180px;
+}

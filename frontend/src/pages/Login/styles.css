@@ -1,0 +1,39 @@
+.login-content {
+  text-align: center;
+  font-weight: bold;
+}
+
+.login-form {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.login-utils {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.util-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+
+.util-link:hover {
+    color: #323232;
+} 

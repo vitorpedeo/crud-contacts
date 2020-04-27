@@ -1,0 +1,63 @@
+.new-contact-view {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .link-to-home {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+  }
+  
+  .link-to-home:hover {
+    color: #323232;
+  }
+  
+  .new-contact-content {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .new-contact-form {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .pic-component {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .all-inputs {
+      width: 60%;
+  }
+  
+  .new-contact-form .form-btn {
+      margin-top: 30px;
+      width: 180px;
+  }
+  
