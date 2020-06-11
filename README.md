@@ -40,7 +40,7 @@ cd backend
 ```
 Install the dependencies
 ```
-yarn add
+yarn install
 ```
 Run Knex migrations
 ```
@@ -60,7 +60,7 @@ cd frontend
 ```
 Install the dependencies
 ```
-yarn add
+yarn install
 ```
 Start the application
 ```
